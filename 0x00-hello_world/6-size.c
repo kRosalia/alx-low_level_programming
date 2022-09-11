@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /*
-* Prints size of each
-* answer watched from video
+* Answer watched from video
 *
 * main - Entry point
+*
+* Description: 'the program's description'
 *
 * Return: always 0 (Success)
 */
