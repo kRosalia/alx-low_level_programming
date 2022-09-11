@@ -5,11 +5,12 @@
 *
 * main - Entry point
 *
-* Description: 'the program's description'
+i*
+*Description: (-the program's description)
 *
 * Return: always 0 (Success)
 */
-int main(void)/*function main*/
+int main(void)/* (Description:) (-prints out sizes of each type)*/
 {
 	int i;
 	long int lt;
