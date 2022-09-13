@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes here */
-
+#include <stdio.h>
 /*betty style doc for function main goes here*/
 /*
  *Description : prints out greater than, is or less than zero
@@ -16,10 +16,12 @@ int main(void)
 	if (n > 0)
 	{
 		printf("is positive");
-	} (n == 0)
+	}
+	else if (n == 0)
 	{
 		printf("is zero");
-	} (n < 0)
+	}
+	else
 	{
 		printf("is negative");
 	}
