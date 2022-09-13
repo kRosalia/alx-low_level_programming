@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes here */
 #include <stdio.h>
-/*betty style doc for function main goes here*/
-/*
- *Description : prints out greater than, is or less than zero
+
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
+
 int main(void)
 {
 	int n;
