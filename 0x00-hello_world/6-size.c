@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 /*
-* Answer watched from video
-*
 * main - Entry point
 *
-i*
-*Description: (-the program's description)
+* Description: 'Determine the size of types char, int,
+* long int, long long int, float'
 *
 * Return: always 0 (Success)
 */
-int main(void)/* (Description:) (-prints out sizes of each type)*/
+int main(void)/* Description: 'prints out sizes of each type'*/
 {
 	int i;
 	long int lt;
