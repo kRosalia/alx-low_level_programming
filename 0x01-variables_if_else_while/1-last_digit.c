@@ -20,9 +20,9 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	int lastDigit = n % 10;
+	double lastDigit = n % 10;
 
-	printf("last digit of %d is %d and is ", n, lastDigit);
+	printf("last digit of %d is %f and is ", n, lastDigit);
 
 	if (lastDigit > 5)
 	{
