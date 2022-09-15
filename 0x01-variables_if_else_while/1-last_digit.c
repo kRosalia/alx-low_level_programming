@@ -16,11 +16,11 @@
 int main(void)
 {
 	int n;
+	int lastDigit = n % 100;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	double lastDigit = n % 10;
 
 	printf("last digit of %d is %f and is ", n, lastDigit);
 
