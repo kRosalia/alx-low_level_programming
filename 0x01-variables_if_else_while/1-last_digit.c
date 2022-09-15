@@ -22,7 +22,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	printf("last digit of %d is %f and is ", n, lastDigit);
+	printf("last digit of %d is %d and is ", n, lastDigit);
 
 	if (lastDigit > 5)
 	{
