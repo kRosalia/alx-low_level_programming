@@ -11,7 +11,7 @@ int main(void)
 {
 	int base = 0;
 
-	while (base <= 10)
+	while (base < 10)
 	{
 		printf("%d", base);
 		base++;
