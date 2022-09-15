@@ -3,14 +3,14 @@
 
 
 /**
+ * main - prints the alphabet
+ * in lowercase
+ * and then in uppercase
+ * followed by a new line
  *
- *  * main - prints the alphabet
+ * Return: 0(success)
  *
- *   * in lowercase followed by a new line
- *
- *    * Return: 0(success)
- *
- *     */
+ */
 
 
 
