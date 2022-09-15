@@ -9,8 +9,8 @@ int main(void)
 {
 	int i;
 
-	i = 0;
-	printf("%d is zero", i);
+	i = 98;
+	printf("%d is zero\n", i);
 
 	return (0);
 }
