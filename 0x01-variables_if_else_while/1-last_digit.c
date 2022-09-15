@@ -16,24 +16,23 @@
 int main(void)
 {
 	int n;
-	int lastDigit = n % 100;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	printf("last digit of %d is %d and is ", n, lastDigit);
+	printf("last digit of %d is %d and is ", n, (n % 10));
 
-	if (lastDigit > 5)
+	if ((n % 10) > 5)
 	{
 		printf("greater than 5\n");
 
 	}
-	else if (lastDigit == 0)
+	else if ((n % 10) == 0)
 	{
 		printf("0\n");
 	}
-	else if (lastDigit < 5)
+	else if ((n % 10) < 5)
 	{
 		printf("less than 6 and not 0\n");
 	}
