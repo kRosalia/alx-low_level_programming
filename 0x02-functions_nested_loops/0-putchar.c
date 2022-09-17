@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	printf("%s\n",MYCONT);
+	printf("%s\n", MYCONT);
 
 	return (0);
 }
