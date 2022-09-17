@@ -1,1 +1,1 @@
-printf("_putchar");
+#define MYCONT "_putchar"
