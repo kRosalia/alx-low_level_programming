@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * main - print puchar
@@ -7,9 +8,11 @@
  * Return: Always 0(success)
  */
 
-int main(void)
-{
-	printf("%s\n", MYCONT);
-
-	return (0);
+void print_alphabet(void){
+	char alpha = 'a';
+	while (alpha >= 'z'){
+		_putchar(alpha);
+		alpha ++;
+	}
+	_putchar('\n');
 }
