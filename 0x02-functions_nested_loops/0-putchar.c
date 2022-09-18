@@ -1,18 +1,23 @@
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
 
 /**
- * main - print puchar
+ * main - print putchar
  * followed by a new line
  * Return: Always 0(success)
  */
 
-void print_alphabet(void){
-	char alpha = 'a';
-	while (alpha >= 'z'){
-		_putchar(alpha);
-		alpha ++;
-	}
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
+	return (0);
 }
